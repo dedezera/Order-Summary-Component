@@ -19,13 +19,13 @@
 }
 
 body {
-    font-size: 16px;
-    background: url(images/pattern-background-desktop.svg) no-repeat;
+    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container {
-    height: 650px;
+    height: 660px;
     width: 440px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.089);
     border-radius: 20px;
@@ -54,20 +54,28 @@ body {
 
 .summary p {
     padding-top: 20px;
+    margin-bottom: 50px;
+    color: var(--desaturatedBlue);
+}
+
+.summary h1 {
+    color: var(--darkBlue);
 }
 
 .plan {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     gap: 30px;
+    padding-bottom: 5px;
 }
 
 .plan h1 {
     font-size: 1rem;
     font-weight: 900;
+    color: var(--darkBlue);
+    margin-bottom: 8px;
 }
 
 .plan a {
@@ -75,7 +83,7 @@ body {
 }
 
 .payment {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .payment button {
@@ -86,6 +94,7 @@ body {
     border-radius: 15px;
     border: none;
     cursor: pointer;
+    font-weight: 900;
 }
 
 .payment button:hover {
