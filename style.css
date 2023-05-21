@@ -134,3 +134,22 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 440px;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .plan {
+        padding-top: 50px;
+    }
+
+    .banner img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
